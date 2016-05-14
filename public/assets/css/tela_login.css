@@ -1,0 +1,88 @@
+/*Helpers*/
+.oculta{font-size: 0px; margin:0px;}
+.btn-default{}
+
+
+/*Resets*/
+
+.form-padrao input[type="text"], input[type="password"]{
+border-radius: 0px;
+height: 45px;
+border:1px solid #56A1C0;
+color: #337ab7;
+font-size: 18px;
+}
+.btn-padrao{
+background: #ccc !important;
+color: #666565 !important;
+padding: 5px 34px;
+font-size: 18px;
+border:1px solid #ccc;
+width: 100%;
+font-weight: bold;
+}
+
+/*Fontes*/
+
+
+/*Cores*/
+.cores{
+background: rgba(22,164,199,0.98);
+background: -moz-linear-gradient(left, rgba(22,164,199,0.98) 0%, rgba(117,189,209,0.98) 23%, rgba(60,165,194,0.97) 70%, rgba(60,165,194,0.97) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(22,164,199,0.98)), color-stop(23%, rgba(117,189,209,0.98)), color-stop(70%, rgba(60,165,194,0.97)), color-stop(100%, rgba(60,165,194,0.97)));
+background: -webkit-linear-gradient(left, rgba(22,164,199,0.98) 0%, rgba(117,189,209,0.98) 23%, rgba(60,165,194,0.97) 70%, rgba(60,165,194,0.97) 100%);
+background: -o-linear-gradient(left, rgba(22,164,199,0.98) 0%, rgba(117,189,209,0.98) 23%, rgba(60,165,194,0.97) 70%, rgba(60,165,194,0.97) 100%);
+background: -ms-linear-gradient(left, rgba(22,164,199,0.98) 0%, rgba(117,189,209,0.98) 23%, rgba(60,165,194,0.97) 70%, rgba(60,165,194,0.97) 100%);
+background: linear-gradient(to right, rgba(22,164,199,0.98) 0%, rgba(117,189,209,0.98) 23%, rgba(60,165,194,0.97) 70%, rgba(60,165,194,0.97) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16a4c7', endColorstr='#3ca5c2', GradientType=1 );
+}
+
+.gradiente-cinza{
+background: rgba(23,21,23,1);
+background: -moz-linear-gradient(left, rgba(23,21,23,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 70%, rgba(71,60,71,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(23,21,23,1)), color-stop(27%, rgba(219,219,219,1)), color-stop(70%, rgba(209,209,209,1)), color-stop(100%, rgba(71,60,71,1)));
+background: -webkit-linear-gradient(left, rgba(23,21,23,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 70%, rgba(71,60,71,1) 100%);
+background: -o-linear-gradient(left, rgba(23,21,23,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 70%, rgba(71,60,71,1) 100%);
+background: -ms-linear-gradient(left, rgba(23,21,23,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 70%, rgba(71,60,71,1) 100%);
+background: linear-gradient(to right, rgba(23,21,23,1) 0%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 70%, rgba(71,60,71,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171517', endColorstr='#473c47', GradientType=1 );
+}
+
+/*backgrounds*/
+.bg-padrao{
+	background-color: #ccc;
+}
+
+/*Formulario max-height:550px; */
+.topo-login {
+    background-color: #56A1C0;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;    
+}
+.titulo-login{
+	font-size: 22px;
+}
+.login{ 
+	margin: 150px auto; 
+	max-width: 550px;
+	text-align: center;	
+	background-color: #FFF;
+	border-radius: 5px;
+}
+.recuperar-senha{
+	float: right;
+	color: #3CA5C3;	
+	padding: 5px;
+}
+
+.conteudo-login{ 
+	padding: 34px 8px 12px 8px;
+}
+
+.recuperarSenha{
+	color: #fff;
+	text-align: center;
+}
+
+
